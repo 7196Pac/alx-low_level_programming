@@ -1,28 +1,22 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description:  prints the alphabet in lowercase,
- * and then in uppercase, followed by a new line.
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
 int main(void)
 {
-char c = 'a';
+	char c = 'a';
 
-while (c <= 'z')
-{
-putchar(c);
-c++;
-}
+	while (c <= 'z')
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+		c++;
+	}
 
-c = 'A';
-
-while (c <= 'Z')
-{
-putchar(c);
-c++;
-}
-
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
