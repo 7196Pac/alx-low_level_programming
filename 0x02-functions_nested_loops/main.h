@@ -1,5 +1,5 @@
-#ifndef MAIN_H 
- #define MAIN_H 
+#ifndef main.h 
+ #define main.h 
   
  #include<stdio.h> 
   
@@ -17,4 +17,4 @@
  void print_to_98(int n); 
  void print_times_table(int n); 
   
- #endif /* MAIN_H */
+ #endif /* main.h */
